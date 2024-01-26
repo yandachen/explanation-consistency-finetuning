@@ -1,0 +1,42 @@
+{
+    "simulatable": [
+        {
+            "orig_qn": "George wants to warm his hands quickly by rubbing them. Which skin surface will produce the most heat?\nA. dry palms\nB. wet palms\nC. palms covered with oil\nD. palms covered with lotion",
+            "orig_qa_tm_expl": "Heat from friction is produced when two surfaces rub against each other. The harder it is for surfaces to slide over each other, the more heat will be produced. Skin surface that is dry provides more resistance to motion than a wet, oiled, or lotioned one.",
+            "sim_qn": "Which of the following scenarios will likely generate the most heat due to friction?\nA. A wet fish sliding out of a fisherman's hands\nB. Rubbing lotion into dry skin\nC. A dry hand sliding across a dry table surface\nD. An oiled hand sliding across a wet glass surface",
+            "sim_qa_expl": "We know from the starter QA that a skin surface that is dry provides more resistance and thus produces more heat compared to a wet, oiled, or lotioned one. So the answer is C.",
+            "relevant_qa_expl": "Heat from friction is produced when two surfaces rub against each other. The harder it is for surfaces to slide over each other, the more heat will be produced. Skin surface that is dry provides more resistance to motion than a wet, oiled, or lotioned one. So the answer is C."
+        },
+        {
+            "orig_qn": "Which of the following statements best explains why magnets usually stick to a refrigerator door?\nA. The refrigerator door is smooth.\nB. The refrigerator door contains iron.\nC. The refrigerator door is a good conductor.\nD. The refrigerator door has electric wires in it.",
+            "orig_qa_tm_expl": "Magnetics stick to ferromagnetic materials. The refrigerator door contains iron, which is a ferromagnetic material.",
+            "sim_qn": "In your physics class, you're studying a metal ball and discover that magnets attach to it. Which substance is the ball likely comprised of?\nA. Nickel\nB. Zinc\nC. Copper\nD. Gold",
+            "sim_qa_expl": "We know from the starter QA that magnetics stick to ferromagnetic materials. Nickel is ferromagnetic, but copper, zinc, and gold are not. So the answer is A.",
+            "relevant_qa_expl": "Magnetics stick to ferromagnetic materials. Nickel is ferromagnetic. Copper, zinc, and gold are not ferromagnetic. So the answer is A."
+        },
+        {
+            "orig_qn": "What will reflect the most light\nA. A car tire\nB. A bath towel\nC. sheet of paper\nD. silver spoon",
+            "orig_qa_tm_expl": "Reflection of light is maximum from polished, shiny and smooth surfaces. Rough surfaces absorb more light than they reflect.",
+            "sim_qn": "Which surface would reflect light the most?\nA. A rough wooden plank\nB. A polished silver mirror\nC. A muddy pond\nD. Raw, unprocessed aluminium",
+            "sim_qa_expl": "We know from the starter QA that reflection of light is maximum from polished, shiny and smooth surfaces. A polished silver mirror is polished, shiny and smooth. So the answer is B.",
+            "relevant_qa_expl": "Reflection of light is maximum from polished, shiny and smooth surfaces. So the answer is B."
+        },
+        {
+            "orig_qn": "Acid rain could affect\nA. an indoor pizza\nB. an indoor TV\nC. inside the house\nD. a car's color",
+            "orig_qa_tm_expl": "Indoor objects are unlikely to be directly affected by acid rain unless exposed to the outdoors.",
+            "sim_qn": "What is unlikely to be affected by acid rain?\nA. Plants and wildlife\nB. Buildings and statues\nC. Indoor furniture and decor\nD. Lakes and rivers",
+            "sim_qa_expl": "We know from the starter QA that indoor objects are unlikely to be directly affected by acid rain unless exposed to the outdoors. So the answer is C.",
+            "relevant_qa_expl": "Indoor objects are unlikely to be directly affected by acid rain unless exposed to the outdoors. So the answer is C."
+        }
+    ],
+    "unsimulatable": [
+        {
+            "orig_qn": "A person wants to buy some reusable equipment for the kitchen, so they get\nA. paper plates\nB. ceramic plates\nC. solo cups\nD. plastic forks",
+            "orig_qa_tm_expl": "Ceramic plates are reusable because they are durable and can be washed and used again multiple times. Paper plates, solo cups, and plastic forks are designed to be disposable.",
+            "sim_qn": "An object that contains gas often goes\nA. in circles\nB. forward\nC. down\nD. up",
+            "sim_qa_expl": "The starter QA does not include information that directly helps answer this follow-up question. So the answer is unknown.",
+            "relevant_qa_expl": "The starter QA does not include information that directly answer this follow-up question. So the answer is unknown."
+        }
+    ],
+    "qa_dem_order": [0, 1, 2, 3, 4]
+}

@@ -1,0 +1,77 @@
+{
+    "simulatable": [
+        {
+            "orig_qn": "Can the Palace of Westminster tell time in the dark?",
+            "orig_qa_tm_expl": "The Palace of Westminster is a building. Buildings cannot tell time.",
+            "sim_qn": "Can the White House tell time?",
+            "sim_qa_expl": "We know from the starter QA that buildings cannot tell time. Since the White House is also a building, the White House cannot tell time either. So the answer is no.",
+            "relevant_qa_expl": "The White House is a building. Buildings cannot tell time. So the answer is no."
+        },
+        {
+            "orig_qn": "Are psychiatric patients welcome to join the United States Air Force?",
+            "orig_qa_tm_expl": "The United States Air Force is a branch of the United States military. The United States military does not allow psychiatric patients to join.",
+            "sim_qn": "Are psychiatric patients welcome to join the United States Army?",
+            "sim_qa_expl": "We know from the starter QA that the United States military does not allow psychiatric patients to join. Because United States Army is a branch of the United States military, psychiatric patients are not welcome to join the United States Army either. So the answer is no.",
+            "relevant_qa_expl": "The United States military does not allow psychiatric patients to join. The United States Army is a branch of the United States military. So the answer is no."
+        },
+        {
+            "orig_qn": "Does The Hague border multiple bodies of water?",
+            "orig_qa_tm_expl": "The Hague is a city in the Netherlands. The Netherlands borders the North Sea.",
+            "sim_qn": "Is Amsterdam near the North Sea?",
+            "sim_qa_expl": "We know from the starter QA that the Netherlands borders the North Sea. Because Amsterdam is a city in the Netherlands, Amsterdam is also near the North Sea. So the answer is yes.",
+            "relevant_qa_expl": "Amsterdam is a city in the Netherlands. Netherlands borders the North Sea. So the answer is yes."
+        },
+        {
+            "orig_qn": "Can an Asian black bear use chopsticks?",
+            "orig_qa_tm_expl": "Asian black bears are omnivores. Omnivores can use chopsticks.",
+            "sim_qn": "Can pigs use chopsticks?",
+            "sim_qa_expl": "We know from the starter QA that omnivores can use chopsticks. Because pigs are omnivores, pigs can use chopsticks as well. So the answer is yes.",
+            "relevant_qa_expl": "Pigs are omnivores. Omnivores can use chopsticks. So the answer is yes."
+        },
+        {
+            "orig_qn": "Does open heart surgery finish before entirety of American Ballet Theatre's Swan Lake?",
+            "orig_qa_tm_expl": "The American Ballet theatre's Swan Lake has a run time of 45 minutes. The National Heart, Lung, and Blood Institute states that a coronary artery bypass takes 3 to 6 hours.",
+            "sim_qn": "Is it possible to watch the entirety of American Ballet Theatre's Swan Lake 2 times before an open heart surgery finishes?",
+            "sim_qa_expl": "We know from the starter QA that the run time of Swan Lake is 45 minutes and an open heart surgery takes 3 to 6 hours. Therefore it is possible to watch Swan Lake twice before the surgery finishes (90 minutes). So the answer is yes.",
+            "relevant_qa_expl": "The run time of Swan Lake is 45 minutes. An open heart surgery takes 3 to 6 hours. 45 minutes * 2 = 90 minutes < 3 hours. So the answer is yes."
+        },
+        {
+            "orig_qn": "Could a bee hummingbird balance a scale with a single pea on it?",
+            "orig_qa_tm_expl": "The bee hummingbird is the smallest bird in the world. The bee hummingbird weighs about 2 grams. A pea weighs about 1 gram.",
+            "sim_qn": "Could a pea balance a scale with a dollar bill on it?",
+            "sim_qa_expl": "We know from the starter QA that a pea weighs about 1 gram. Because a dollar bill weighs about 1 gram as well, a pea can balance a scale with a dollar bill on it. So the answer is yes.",
+            "relevant_qa_expl": "A pea weighs about 1 gram. A dollar bill weighs about 1 gram. So the answer is yes."
+        },
+        {
+            "orig_qn": "While viewing \"Scary Movie\" is the viewer likely to experience an increase in adrenaline?",
+            "orig_qa_tm_expl": "The movie \"Scary Movie\" is a comedy. Comedies are not scary.",
+            "sim_qn": "Is \"Superbad\" scary?",
+            "sim_qa_expl": "We know from the starter QA that comedies are not scary. \"Superbad\" is also a comedy, so \"Superbad\" is not scary either. So the answer is no.",
+            "relevant_qa_expl": "The movie \"Superbad\" is a comedy. Comedies are not scary. So the answer is no."
+        }
+    ],
+    "unsimulatable": [
+        {
+            "orig_qn": "Does Marco Rubio have a close relationship with Allah?",
+            "orig_qa_tm_expl": "Marco Rubio is a Christian. Christians do not have a close relationship with Allah.",
+            "sim_qn": "Is Barack Obama a Christian?",
+            "sim_qa_expl": "The starter QA does not include information that directly helps answer this follow-up question. So the answer is unknown.",
+            "relevant_qa_expl": "The starter QA does not include information that directly answer this follow-up question. So the answer is unknown."
+        },
+        {
+            "orig_qn": "Do gorillas fight with panda bears?",
+            "orig_qa_tm_expl": "Gorillas are herbivores. Pandas are herbivores. Herbivores do not fight with other herbivores.",
+            "sim_qn": "Do herbivores fight with carnivores?",
+            "sim_qa_expl": "The starter QA does not include information that directly helps answer this follow-up question. So the answer is unknown.",
+            "relevant_qa_expl": "The starter QA does not include information that directly answer this follow-up question. So the answer is unknown."
+        },
+        {
+            "orig_qn": "Can citrus grow in Ulaanbaatar?",
+            "orig_qa_tm_expl": "Citrus trees can grow in Ulaanbaatar. Thus, citrus can grow in Ulaanbaatar.",
+            "sim_qn": "Can palm trees grow in Ulaanbaatar?",
+            "sim_qa_expl": "The starter QA does not include information that directly helps answer this follow-up question. So the answer is unknown.",
+            "relevant_qa_expl": "The starter QA does not include information that directly answer this follow-up question. So the answer is unknown."
+        }
+    ],
+    "qa_dem_order": [0, 1, 2, 7, 3, 4, 5, 6, 8, 9]
+}

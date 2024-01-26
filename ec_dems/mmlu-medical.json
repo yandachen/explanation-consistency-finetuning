@@ -1,0 +1,77 @@
+{
+    "simulatable": [
+        {
+            "orig_qn": "The need for vitamin B12 and folic acid in the formation of red blood cells is related primarily of their effects on:\nA. Synthesis and release of erythropoietin from the kidney\nB. Absorption of iron from the gut\nC. DNA synthesis in bone marrow\nD. Hemoglobin formation in the red blood cell",
+            "orig_qa_tm_expl": "Within 6-9 hours of treatment with vitamin B12, the formation of nuclear DNA components promotes a normoblastic reaction of the bone marrow. Folic acid also promotes the formation of nucleic acids.",
+            "sim_qn": "What is the implication of vitamin B12 and folic acid in terms of nucleic acids?\nA. Their formation\nB. Their breakdown\nC. Their mutation\nD. Their regulation",
+            "sim_qa_expl": "We know from the starter QA that the formation of nuclear DNA components happens within 6-9 hours of treatment with vitamin B12 and is also promoted by the folic acid. So the answer is A.",
+            "relevant_qa_expl": "Treatment with vitamin B12, within a span of 6 to 9 hours, propels the production of nuclear DNA elements, which in turn fosters a normoblastic response in the bone marrow. Similarly, folic acid aids in the creation of nucleic acids. So the answer is A."
+        },
+        {
+            "orig_qn": "In a normal child who weighs 15 kg, the daily fluids maintenance requirement will be approximately\nA. 100 mL\nB. 1250 mL\nC. 1500 mL\nD. 1750 mL",
+            "orig_qa_tm_expl": "For infants 3.5 to 10 kg, the daily fluid requirement is 100 mL/kg. For children 11-20 kg, the daily fluid requirement is 1000 mL + 50 mL/kg for every kg over 10.",
+            "sim_qn": "A 16 kg girl has been brought to the hospital due to severe dehydration. The pediatrician prescribes her a daily fluid requirement based on her weight. How much fluid should the girl receive daily?\nA. 1600 mL\nB. 1300 mL\nC. 1500 mL\nD. 1800 mL",
+            "sim_qa_expl": "We know from the starter QA that for children 11-20 kg, the daily fluid requirement is 1000 mL + 50 mL/kg for every kg over 10. Because the girl's weight is 16kg, based on this formula the girl should get 1000 + 50 * (16-10) = 1300 mL of fluid. So the answer is B.",
+            "relevant_qa_expl": "The daily fluid necessity for babies weighing between 3.5 and 10 kg is 100 mL/kg. For children weighing between 11 and 20 kg, they require 1000 mL daily plus an additional 50 mL/kg for each kg over 10. So the answer is B."
+        },
+        {
+            "orig_qn": "Linear lesion is seen in \u2013\nA. Sporotrichosis\nB. Lichen planus\nC. Psoriasis\nD. Pemphigus",
+            "orig_qa_tm_expl": "Sporotrichosis, a deep fungal infection caused by Sporothrix schenckii, may produce a series of inflamed nodules along the line of lymphatic drainage, resulting in linear lesions.",
+            "sim_qn": "Sporothrix schenckii is known to cause which specific type of lesion in the body?\nA. Maculopapular rash\nB. Bullous lesion\nC. Vesicular rash\nD. Linear lesion",
+            "sim_qa_expl": "We know from the starter QA that Sporothrix schenckii causes Sporotrichosis which may produce a series of inflamed nodules along the line of lymphatic drainage, resulting in linear lesions. So the answer is D.",
+            "relevant_qa_expl": "The fungus Sporothrix schenckii is known to cause a linear lesion in the body. It is the causative agent of sporotrichosis, also known as \"rose gardener's disease\". The disease often manifests as a chain of small skin lesions along the path of a lymph vessel, hence the term \"linear lesion\". So the answer is D."
+        },
+        {
+            "orig_qn": "Gene amplification is by\nA. Polymerase Chain Reaction\nB. Ligase chain reaction\nC. DNA hybridization\nD. In situ hybridization",
+            "orig_qa_tm_expl": "PCR is an in-vitro DNA amplification procedure in which millions of copies of a particular sequence of DNA can be produced within a few hours.",
+            "sim_qn": "What is the primary goal of the PCR procedure in relation to DNA?\nA. Terminator sequence identification\nB. Splicing of DNA\nC. Amplification of a specific DNA sequence\nD. Joining of two different DNA strands",
+            "sim_qa_expl": "We know from the starter QA that PCR is a DNA amplification procedure where millions of copies of a specific DNA sequences are produced. So the answer is C.",
+            "relevant_qa_expl": "The primary goal of the Polymerase Chain Reaction (PCR) procedure is to make millions of copies of a specific DNA sequence within a few hours. This allows scientists to obtain enough DNA to conduct experiments or make observations. It has proven to be incredibly useful in various research and clinical settings, including forensics and disease diagnosis. So the answer is C."
+        },
+        {
+            "orig_qn": "Endothelial leukocyte interaction during inflammation is mediated by\nA. Selectins\nB. Integrins\nC. Defensins\nD. Endothelin",
+            "orig_qa_tm_expl": "Endothelial leukocyte interaction is also mediated by integrins. Integrins are proteins that function mechanically, by attaching the cell cytoskeleton to the extracellular matrix (ECM), and biochemically, by sensing whether adhesion has occurred. The integrin family of proteins consists of alpha and beta subtypes, which form transmembrane heterodimers.",
+            "sim_qn": "What is the primary function of integrins in endothelial leukocyte interaction?\nA. They separate the cell cytoskeleton from the extracellular matrix\nB. They attach the cell cytoskeleton to the extracellular matrix and sense if adhesion has occurred\nC. They prevent adhesion from occurring\nD. They form transmembrane homodimers",
+            "sim_qa_expl": "We know from the starter QA that integrins function by attaching the cell cytoskeleton to the extracellular metrix and by sensing if adhesion has occurred. The starter QA also states that the integrin family of proteins form transmembrane heterodimers, not transmembrane homodimers. So the answer is B.",
+            "relevant_qa_expl": "Integrins are crucial in endothelial-leukocyte interactions due to their dual functionality. Mechanically, they help bind the cell's cytoskeleton to the extracellular matrix (ECM), providing structural support. Biochemically, they are involved in sensing, determining if adhesion, an essential step in leukocyte transmigration during inflammatory responses, has occurred. They form transmembrane heterodimers rather than homodimers. So the answer is B."
+        },
+        {
+            "orig_qn": "Clay Shovel's fracture involves\nA. Spinous process\nB. Lamina\nC. Pedicle\nD. Body",
+            "orig_qa_tm_expl": "Clay Shoveller's Fracture is an avulsion of the spinous process of C6, C7, or T1. It is caused either by rotation of the upper trunk when the cervical spine is relatively fixed or, less commonly, as the result of a direct blow.",
+            "sim_qn": "Which vertebrae can be affected in a Clay Shoveller's Fracture?\nA. C6, C7, or T1\nB. L1, L2, L3\nC. C2, C3, or C4\nD. T3, T4, T5",
+            "sim_qa_expl": "We know from the starter QA that Clay Shoveller's Fracture is an avulsion of C6, C7, or T1. So the answer is A.",
+            "relevant_qa_expl": "The vertebrae that can be affected in a Clay Shoveller's Fracture are C6, C7, or T1. This type of fracture occurs when the spinous process of these vertebrae is avulsed or torn off. This can happen when the upper trunk rotates while the cervical spine is relatively fixed. This type of injury often occurs in manual labor jobs that involve a lot of lifting, hence the name \"clay shoveler's\" fracture as it was common among workers shoveling clay in the past. So the answer is A."
+        }
+    ],
+    "unsimulatable": [
+        {
+            "orig_qn": "Which is a nonabsorbable suture\nA. Vicryl\nB. Polypropylene\nC. Catgut\nD. PDS",
+            "orig_qa_tm_expl": "Absorbable suture materials are plain catgut, chromic catgut, vicryl (polyglactic acid), dexon (polyglycolic acid), maxon (polyglyconate), PDS (poly dioxanone suture material), monocryl, and biosyn. Non-absorbable suture materials are silk, polypropylene (prolene), polyethylene, cotton, linen, steel, polyester, polyamide, and nylon.",
+            "sim_qn": "Loud S1 in mitral stenosis is seen in -\nA. Prolonged flow through mitral valve\nB. 1* degree hea block\nC. Calcification of the valve\nD. Immobilization of the valve",
+            "sim_qa_expl": "The starter QA does not include information that directly helps answer this follow-up question. So the answer is unknown.",
+            "relevant_qa_expl": "The starter QA does not include information that directly answer this follow-up question. So the answer is unknown."
+        },
+        {
+            "orig_qn": "A pregnant woman of >35 weeks gestation has SLE. All of the following drugs are used in treatment except:\nA. Methotrexate\nB. Sulfasalazine\nC. Prednisolone\nD. Chloroquine",
+            "orig_qa_tm_expl": "Methotrexate is very effective in treating Systemic Lupus Erythematosus (SLE), but during pregnancy, it can cross the placenta and cause a teratogenic effect on the fetus. The main teratogenic effects caused by Methotrexate are cleft palate, hydrocephalus, multiple defects, and fetal death.",
+            "sim_qn": "What is the main concern about using Methotrexate during pregnancy?\nA. Causing cleft palate\nB. Causing hydrocephalus\nC. Causing multiple defects\nD. Causing a teratogenic effect on the fetus",
+            "sim_qa_expl": "We know from the starter QA that Methotrexate can cross the placenta and cause cleft palate, hydrocephalus, multiple defects, and fetal death. Thus, options A, B, C, D are all correct based on the starter QA. So the answer is unknown.",
+            "relevant_qa_expl": "We know from the starter QA that Methotrexate can cross the placenta and cause cleft palate, hydrocephalus, multiple defects, and fetal death. Thus, options A, B, C, D are all correct based on the starter QA. So the answer is unknown."
+        },
+        {
+            "orig_qn": "Which drug should not be given in pregnancy\nA. Labetolol\nB. ACE inhibitor\nC. Hydralizine\nD. Methyldopa",
+            "orig_qa_tm_expl": "ACE inhibitors and ARBs have fetopathic potential and are contraindicated in pregnancy.",
+            "sim_qn": "If a patient is pregnant and suffering from hypertension, which of the following drugs is safe to give?\nA. Labetolol\nB. Quinapril\nC. Losartan\nD. Benazepril",
+            "sim_qa_expl": "We know from the starter QA that ACE inhibitors and ARBs are contraindicated in pregnancy, but the starter QA does not give enough information on what kind of drugs are save to give during pregnancy. So the answer is unknown.",
+            "relevant_qa_expl": "We know from the starter QA that ACE inhibitors and ARBs are contraindicated in pregnancy, but the starter QA does not give enough information on what kind of drugs are save to give during pregnancy. So the answer is unknown."
+        },
+        {
+            "orig_qn": "A 45-year-old tall, thin, male has acute onset of chest pain radiating into the back. In the emergency room his right radial pulse is bounding but his femoral pluses are absent. The most likely diagnosis is? SELECT ONE.\nA. Aortic insufficiency\nB. Aortic dissection\nC. Ventricular fibrillation\nD. Mitral insufficiency",
+            "orig_qa_tm_expl": "Aortic dissection describes a patient with Marfan syndrome, who is typically at risk for aortic dissection. With dissection, you may preserve the right radial pulse but lose femoral pulses.",
+            "sim_qn": "What other symptoms may a patient with aortic dissection experience?\nA. Sudden severe fatigue\nB. Trouble breathing and swallowing\nC. Chest and upper back pain\nD. Loss of consciousness",
+            "sim_qa_expl": "The starter QA does not state what other symptoms a patient with aortic dissection may experience. So the answer is unknown.",
+            "relevant_qa_expl": "The starter QA does not state what other symptoms a patient with aortic dissection may experience. So the answer is unknown."
+        }
+    ],
+    "qa_dem_order": [0, 1, 6, 2, 3, 7, 4, 5, 8, 9]
+}
